@@ -82,3 +82,27 @@ console.log('19' - '13' + '17'); // -> ? 617
 console.log('19' - '13' + 17); // -> ? 23
 console.log('123' < 57); // -> ? false
 console.log(5 + 6 + '4' + 9 - 4 - 2); // -> ? 1143
+
+//truthy & falsy values
+
+//lets see if anything changes the boolean if anything anything is not defined,
+
+let money = 0 
+
+if (money) {
+    console.log("Well , Well , Well, what we have here 🙏")
+}
+else {
+    console.log("Boy, Get you ass to work")
+}
+
+// now since money is 0 the else block will get executed lets change the moeny to be more... 
+
+money = 100
+
+if (money) {
+    console.log("Well , Well , Well, what we have here 🙏")
+}
+else {
+    console.log("Boy, Get you ass to work")
+}
