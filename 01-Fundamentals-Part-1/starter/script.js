@@ -49,7 +49,36 @@ console.log(myContinent_population < avg_pop_country)
 // lets create a description for the variables we have made and used.
 // lets use a a formatted string for this 
 
-console.log(`If my country's population would be divided into 2 then the each half would have ${myContinent_population},
-    which is more than ${fin_population} people of a finland and avg of another country with ${avg_pop_country}
+console.log(`If my country's population would be divided into 2 then the each half would have ${myContinent_population} million,
+    which is more than ${fin_population} million people of a finland and avg of another country with ${avg_pop_country} million,
     where people from my city speak ${language}`)
 
+// Type Conversion & Type Coercion 
+
+// Type Conversion is manually done to match the user's needs where as Coercion is the automatic handling of types done by JS on its own 
+
+const year = '2000'
+
+console.log(typeof (Number(year)))
+console.log(typeof (year))
+
+//how is year still a string because the number(year) returns a number value but it is not assigned to anything.
+//lets save the result from the Number(year) 
+
+const num = Number(year)
+console.log(num)
+console.log(typeof (num))
+
+// now the value is saved and kept in the memory but what if we want to concatinate the string with number ? we know we cant directly do that in python ? 
+
+console.log("hey its the " + num + " " + year)
+
+// num is a number and year is string then how is it working ? 
+// TYPE COERSION -automatically converts the values for use.
+// so, what should be the output of these code lines ? 
+
+console.log('9' - '5'); // -> ? 4 
+console.log('19' - '13' + '17'); // -> ? 617
+console.log('19' - '13' + 17); // -> ? 23
+console.log('123' < 57); // -> ? false
+console.log(5 + 6 + '4' + 9 - 4 - 2); // -> ? 1143
