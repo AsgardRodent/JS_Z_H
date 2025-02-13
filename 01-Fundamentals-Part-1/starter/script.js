@@ -165,3 +165,10 @@ console.log(myContinent_population)
 myContinent_population >= 1000 ? console.log(`${myCountry} is a highly populated country !!!`)
 : console.log(`${myCountry} is a small country`)
 
+const bill = 275;
+
+/* Write your code below. Good luck! 🙂 */
+let tip
+
+const tip = bill <= 300 ? 0.15 * bill : 0.2 * bill;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
