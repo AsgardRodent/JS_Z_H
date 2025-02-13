@@ -106,3 +106,11 @@ if (money) {
 else {
     console.log("Boy, Get you ass to work")
 }
+
+//dint do anything today , mid terms ! T_T 
+
+let kryptonite 
+
+kryptonite = 'batman'
+
+console.log(`Superman's krytonite isn't your kryptonite but it is ${kryptonite}`)
