@@ -114,3 +114,19 @@ let kryptonite
 kryptonite = 'batman'
 
 console.log(`Superman's krytonite isn't your kryptonite but it is ${kryptonite}`)
+
+// nvm i got the mood to finish the first section 
+
+let sarah = true
+
+// sarah has some requirements 
+// country should speak english , less than 50 mill population and not an island lets see if we can implement that 
+if (sarah) {
+    
+    if (language == "English" && myContinent_population < 50 && !isIsland ) {
+        console.log(`You should live in ${myCountry} :D`)
+    }
+    else{
+        console.log(`${myCountry} is not for you !!`)
+    }
+}
