@@ -115,7 +115,7 @@ kryptonite = 'batman'
 
 console.log(`Superman's krytonite isn't your kryptonite but it is ${kryptonite}`)
 
-// nvm i got the mood to finish the first section 
+// nvm i want to finish the first section 
 
 let sarah = true
 
@@ -130,3 +130,30 @@ if (sarah) {
         console.log(`${myCountry} is not for you !!`)
     }
 }
+
+// lets learn switch case 
+// lets take a set  of lan guages spoken in India 
+// Hindi , English , Tamil , Telugu, Gujarati, Marathi 
+
+let language_selected = 'Marathi'
+
+switch (language_selected) {
+    case 'Marathi':
+        console.log(`My Native Language`)
+        break;
+    case 'Hindi':
+        console.log(`Language spoken in the mid to north of the country`)
+        break;
+    case 'Telugu':
+        console.log(`Language spoken in AP`)
+        break;       
+    case 'Tamil':
+        console.log(`Language from Tamil Nadu`)
+        break;
+    case 'Gujurati':
+        console.log(`Gujju boyz & gurlz`)
+        break;
+    default:
+        console.log(`${language_selected} is not promuinant in India`)
+        break;
+    }
