@@ -157,3 +157,11 @@ switch (language_selected) {
         console.log(`${language_selected} is not promuinant in India`)
         break;
     }
+
+// we know about ternery operator lets try implementing it on the population variable we created
+
+console.log(myContinent_population)
+
+myContinent_population >= 1000 ? console.log(`${myCountry} is a highly populated country !!!`)
+: console.log(`${myCountry} is a small country`)
+
